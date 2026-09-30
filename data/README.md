@@ -2,16 +2,14 @@
 
 ## Dataset yang Dipilih
 
-Isi informasi berikut sebelum Milestone 1.
-
 | Item | Isi |
 |---|---|
-| Nama dataset | `[isi nama dataset]` |
-| Sumber | `[URL BPS / Satu Data Indonesia / BMKG / HuggingFace / Kaggle]` |
-| Lisensi/ketentuan pakai | `[isi]` |
-| Ukuran | `[>= 500 MB atau > 1.000.000 baris]` |
-| Periode data | `[isi]` |
-| Unit analisis | `[isi]` |
+| Nama dataset | Corpus-Indonesia |
+| Sumber | https://huggingface.co/datasets/Lyon28/Corpus-Indonesia |
+| Lisensi/ketentuan pakai | Apache-2.0 |
+| Ukuran | >1.000.000 baris (sekitar 19,48 juta baris) |
+| Periode data | Tidak dicantumkan secara eksplisit pada informasi dataset yang digunakan |
+| Unit analisis | Dokumen/teks berbahasa Indonesia |
 
 ## Tempat Mencari Dataset
 
@@ -28,7 +26,7 @@ Pilih dataset Indonesia yang legal digunakan, dapat didokumentasikan sumbernya, 
 
 ## Cara Memperoleh Data
 
-1. Buka URL sumber di atas.
+1. Buka URL sumber dataset.
 2. Unduh file ke folder `data/raw/` tanpa mengubah data mentah.
 3. Catat nama file dan checksum bila tersedia.
 4. Ubah variabel `DATA_PATH` pada `notebooks/01_data_profiling.ipynb` agar menunjuk ke file tersebut.
